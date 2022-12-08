@@ -55,11 +55,13 @@ ul {
 @keyframes slide {
     0% {
         transform: translateY(50px);
+        filter: blur(4px);
         visibility: hidden;
         opacity: 0;
     }
     100% {
         transform: translateY(0);
+        filter: blur(0);
         visibility: visible;
         opacity: 1;
     }
@@ -92,11 +94,13 @@ ul {
     0% {
         transform: translateY(-50px);
         visibility: hidden;
+        filter: blur(1px);
         opacity: 0;
     }
     100% {
         transform: translateY(0);
         visibility: visible;
+        filter: blur(0px);
         opacity: 1;
     }
 }
