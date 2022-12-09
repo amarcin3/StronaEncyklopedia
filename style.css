@@ -3,40 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background-color: #ffffff;
 }
-
 #heading-text {
     margin-bottom: 2rem;
     font-size: 2rem;
     text-align: center;
     animation: slide 0.5s ease-in-out forwards;
 }
-
 #heading-text span{
     text-decoration: underline;
 }
-
 ul {
     list-style: none;
 }
-
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
 }
-
 .image-gallery > li {
     flex-basis: 170px;
     position: relative;
     cursor: pointer;
 }
-
 .image-gallery::after {
     display: block;
     width: 100%;
